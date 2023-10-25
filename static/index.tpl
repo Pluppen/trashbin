@@ -7,7 +7,6 @@
 
 <body>
     <p>{{html "ssti"}}</p>
-    <p>{{ . }}</p>
 </body>
 
 </html>
