@@ -8,7 +8,6 @@
 <body>
     <p>{{html "ssti"}}</p>
     <p>{{ . }}</p>
-    <p>{{ .ServerInfo.Hostname }}</p>
 </body>
 
 </html>
