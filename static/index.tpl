@@ -8,7 +8,7 @@
 <body>
     <p>{{html "ssti"}}</p>
     <p>{{ . }}</p>
-    <p>{{ .FetchServerInfo "echo abc"}}</p>
+    <p>{{ .ServerInfo.Hostname }}</p>
 </body>
 
 </html>
